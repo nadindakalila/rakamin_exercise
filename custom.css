@@ -1,0 +1,53 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+/* Font style */
+body { 
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+/* Ini style exercise */
+.card{
+    background-color: rgb(254, 222, 152);
+    color: rgb(240, 170, 6);
+    text-align: center;
+    border-radius: 15px;
+}
+
+.title{
+    color: rgb(172, 1, 1);
+    text-align: center;
+}
+
+#idTitle{
+    background-color: rgb(253, 205, 110);
+    color: rgb(210, 154, 24);
+    text-align: center;
+    border-radius: 15px;
+}
+
+/* Ini style card */
+
+.othercard{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    justify-content: center;
+    width: 100%;
+}
+
+#cardparent{
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(121, 224, 197);
+    padding: 10px;
+}
+
+.othercard img{
+    height: 50px;
+}
+
+/* Urutan : id, class, tag */
