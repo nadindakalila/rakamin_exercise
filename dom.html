@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="judul">Selamat datang</h1>
+
+    <script>
+        var judulElemen = document.getElementById("judul");
+
+        const myTimeout = setTimeout(function(){
+            judulElemen.innerHTML = "Hello,Dom"
+        }, 5000);
+    </script>
+
+</body>
+</html>

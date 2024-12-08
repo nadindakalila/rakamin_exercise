@@ -50,4 +50,98 @@ body {
     height: 50px;
 }
 
+/* Ini style portfolio */
+
+#intro{
+    display: flex;
+    justify-content: space-between;
+    background-color: #688C8A;
+ }
+
+#introduction{
+   padding: 50px;
+   padding-top: 50px;
+   margin: 60px;
+}
+
+#work{
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+    margin-inline: 90px;
+}
+
+
+.workCard{
+    background-color: #EBD5EC;
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+}
+
+
+.tabGreen{
+    background-color: #D2DC96;
+    color: #1A3D59;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: smaller;
+}
+
+.tabGreenWork{
+    background-color: #D2DC96;
+    color: #1A3D59;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.titleIntroduction{
+    color:#fafafa;
+    font-size: xx-large;
+}
+
+.description{
+    color: #fafafa;
+    width: 650px;
+    height: 66px;
+    top: 373px;
+    left: 148px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: smaller;
+}
+
+.titleWorkExperience{
+    color:#1A3D59;
+    font-size: xx-large;
+    padding: 10px;
+    margin-inline: 100px;
+}
+
+/* .tabBlue a{
+    color: #fafafa;
+    font-size: smaller;
+    text-align: center;
+}
+
+.tabBlue{
+    background-color: #688C8A;
+    color: #fafafa;
+    border-radius: 10px;
+    height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-inline: 108px;
+    display: flex;
+    justify-content: space-between;
+} */
+
 /* Urutan : id, class, tag */
